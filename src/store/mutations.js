@@ -1,0 +1,1 @@
+/** * Created by Randy on 2017/7/4. */"use strict";export default {    setChatList : function(state,data){        state.chatList = data    },    setAsMessage : function(state,data){        state.asMessage = data;    },    clearAsMessage : function(state) {        state.asMessage = [];    }}

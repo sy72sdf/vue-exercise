@@ -1,0 +1,1 @@
+/** * Created by Randy on 2017/7/4. */import Home from './page/Home.vue'import Message from './page/Message.vue'export default [    {        path : '/',        name : 'home',        component:Home    },    {        path : '/message',        name : 'message',        component :Message    }]
